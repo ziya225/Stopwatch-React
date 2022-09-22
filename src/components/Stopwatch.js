@@ -20,7 +20,8 @@ const Stopwatch = () => {
       <div className="flex h-screen bg-main ">
         <div className="m-auto  w-[50rem]">
           {/* <ThemeSwitcher className="mt-12" /> */}
-          <p className="pl-20 text-white text-9xl ">
+          <p className="text-5xl text-white pl-60">My Stopwatch</p>
+          <p className="pt-10 pl-20 text-white text-9xl ">
             {timer > 0 ? formatTime(timer) : '00 : 00 : 00'}
           </p>
           <div className="flex justify-around">
